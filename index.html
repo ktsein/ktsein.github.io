@@ -12,15 +12,17 @@
       <a-assets>
         <video id="video" src="https://ucarecdn.com/bcece0a8-86ce-460e-856b-40dac4875f15/"
                autoplay loop crossorigin></video>
-		<img class="slide-images" id="image1" src="images/image1.JPG"></img>
-		<img class="slide-images" id="image2" src="images/image2.JPG"></img>
-		<img class="slide-images" id="image3" src="images/image3.JPG"></img>
-		<img class="slide-images" id="image4" src="images/image4.JPG"></img>
-		<img class="slide-images" id="image5" src="images/image5.JPG"></img>
+		    <img class="slide-images" id="image1" src="images/image1.JPG"></img>
+		    <img class="slide-images" id="image2" src="images/image2.JPG"></img>
+		    <img class="slide-images" id="image3" src="images/image3.JPG"></img>
+		    <img class="slide-images" id="image4" src="images/image4.JPG"></img>
+		    <img class="slide-images" id="image5" src="images/image5.JPG"></img>
+		    <img id="sky" src="panos/backyard.jpg"></img>
       </a-assets> 
 
-      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
-	  <a-image id="slide" src="#image1" position="0, 2, 1" rotation="0 180 0"></a-image>
+      <!--<a-videosphere src="#video" rotation="0 180 0"></a-videosphere>-->
+      <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+	    <a-image id="slide" src="#image1" position="0, 1.5, 1" rotation="0 180 0"></a-image>
     </a-scene>
 	
   </body>
